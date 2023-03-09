@@ -1355,16 +1355,16 @@ Game.Launch=function()
 					if (Game.cookiesEarned>=1000000000000000) Game.Win('Nihilism');
 					if (Game.cookiesEarned>=1000000000000000000) Game.Win('Dematerialize');
 					if (Game.cookiesEarned>=1000000000000000000000) Game.Win('Nil zero zilch');
-					if (Game.cookiesEarned>=1000000000000000000000000) Game.Win('Transcendence');
-					if (Game.cookiesEarned>=1000000000000000000000000000) Game.Win('Obliterate');
-					if (Game.cookiesEarned>=1000000000000000000000000000000) Game.Win('Negative void');
+					if (Game.cookiesEarned>=10) Game.Win('Transcendence');
+					if (Game.cookiesEarned>=10) Game.Win('Obliterate');
+					if (Game.cookiesEarned>=10) Game.Win('Negative void');
 				}
 				var cookiesForfeited=Game.cookiesEarned;
 				
 				Game.cookiesReset+=Game.cookiesEarned;
-				Game.cookies=0;
+				Game.cookies=999999999999999999999999999999999999999999999999;
 				Game.cookiesEarned=0;
-				Game.cookieClicks=0;
+				Game.cookieClicks=1000000000000000000000000000000000000000000000000000000000000000000000000;
 				Game.goldenClicksLocal=0;
 				//Game.goldenClicks=0;
 				//Game.missedGoldenClicks=0;
